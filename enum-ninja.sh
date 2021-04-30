@@ -6,7 +6,7 @@ BOLDRED="\e[1;${RED}m"
 BOLDGREEN="\e[1;${GREEN}m"
 ENDCOLOR="\e[0m"
 echo -e "----------------------------------------------------------"
-echo -e "${BOLDGREEN}EnumNinja a tiny lil script to ennumerate basic stuff in Linux for Privellege Escalation.${ENDCOLOR}"
+echo -e "${BOLDGREEN}EnumNinja a tiny lil script to ennumerate basic stuff in Linux for Privilege Escalation.${ENDCOLOR}"
 echo -e "${BOLDGREEN}Made by : Nickapic${ENDCOLOR}"
 echo -e "----------------------------------------------------------"
 
