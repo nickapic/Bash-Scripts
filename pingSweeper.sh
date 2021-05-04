@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $1 == "" ]
+if [ $1 == "" ];
 then 
 echo "You forgot to enter the IP address you wanted to sweep provide the first three octates you want to scan"
 echo "Syntax ./scriptname.sh 192.18.1."
