@@ -51,4 +51,9 @@ ifconfig
 echo -e "${BOLDRED}Checking ARP ${ENDCOLOR}"
 arp -a
 echo "--------------------------------------------------"
-
+echo -e "${BOLDRED} See Writable Files by the user ${ENDCOLOR}"
+ find /etc -type f -writable 2> /dev/null
+echo "--------------------------------------------------"
+echo -e "${BOLDRED} Kernel Version ${ENDCOLOR}"
+uname -a
+echo "--------------------------------------------------"
